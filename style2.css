@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color:  rgb(228, 130, 211);
+}
+
+.wrap {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 20px;
+}
+
+.btn-wrap {
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.btn {
+    background-color: rgb(247, 46, 204);
+    border-color: rgb(143, 6, 113);
+    color:rgb(143, 6, 113);  
+    cursor: pointer;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.7s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.image {
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+
+    display: none;
+}
+
+.img1 {
+    background-image: url(img2/amazing.jpg);
+}
+
+.img2 {
+    background-image: url(img2/pink.jpg);
+    
+}
+
+.img3 {
+    background-image: url(img2/places.jpg);
+}
+
+.img4 {
+    background-image: url(img2/ice.jpg);
+}
+
+.img5 {
+    background-image: url(img2/fortetsya.jpg);
+}
+
+.img6 {
+    background-image: url(img2/maxresdefault.jpg);
+}
+
+.img7 {
+    background-image: url(img2/castle.jpg);
+}
+
+.img8 {
+    background-image: url(img2/sokotra.jpg);
+}
+
+.img9 {
+    background-image: url(img2/rossi.jpg);
+}
+
+.img10 {
+    background-image: url(img2/mountain.jpg);
+}
+
+
+h3 {
+    text-align: center;
+    font-weight:700;
+    font-size: 30px;
+    color: rgb(0, 0, 156);
+}
+
+.show-small {
+    display: block;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 20px rgb(46, 67, 252);
+}
+
+.show-big {
+    display: block;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 40px rgb(0, 0, 197);
+}
